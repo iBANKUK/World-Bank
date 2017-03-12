@@ -1,0 +1,18 @@
+#%RAML 1.0
+---
+title: World Bank
+vrsion: v1
+baseuri:
+/banks
+  get:
+   queryparameters:
+     branch:
+      description: filter by branch
+  Post:
+  /{BankID):
+    get:
+    put:
+    patch:
+    delete
+    schemas:
+     branch:
